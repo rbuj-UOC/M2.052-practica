@@ -60,7 +60,7 @@ public class EntryLock {
 		}
 
 		try{
-			entryLock. put(owner);
+			entryLock.put(owner);
 		} catch (InterruptedException e) {
 			DAT.getLog().warn("Interrupted while waiting for lock");
 		}
